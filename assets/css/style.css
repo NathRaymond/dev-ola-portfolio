@@ -1,9 +1,10 @@
 *   {
-    margin: 0;
-    padding: 0;
-
+    margin: 0px;
+    padding: 0px;
 }
-
+body {
+    overflow: hidden;
+}
 .main   {
     width: 100% ;
     background: linear-gradient(to top, rgba(0,0,0,0.7)70%, rgba(0,0,0,0.7)70% ), url(../images/background_image.jpg) ;
