@@ -1,0 +1,131 @@
+
+body {
+    background-image: url(tips-for-group-travel.jpg);
+    background-position: center;
+    background-size: cover;
+    height:95vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter:blur(3px);
+}
+
+.glasseffect {
+    background-image: url(tips-for-group-travel.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    width: 900px;
+    height: 500px;
+    font-family: cursive;
+    /* background: radial-gradien,rgb(255, 255, 255,0.6); */
+    border-radius:30px;
+    /* box-shadow:5px 10px 20px rgb(0, 0, 0,0.6); */
+}
+
+.logo {
+    color:  #000000;
+    float: left ;
+    cursor: pointer;
+    font-size: 40px;
+    font-family:  'Bungee Shade', cursive;
+    margin-top: 0px;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center ;
+    padding : 10px 5%;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+     transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul  li  a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    transform: scalex(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+nav ul  li  a:hover::after{
+    transform: scalex(1);
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.info {
+    font-family: 'Cinzel', serif;
+    color: rgba(7, 7, 7, 0.856);
+    margin-left: 30px;
+    padding: 20px;
+    margin-top: -50px;
+    
+}
+
+.info h2 span {
+    color: #000000;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.info p {
+    color: antiquewhite;
+}
+
+.info h4 {
+    color: white;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1.5px;
+}
+
+
+
+button{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px 16px;
+    font-family: cursive;
+    color: white;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
